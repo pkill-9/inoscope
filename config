@@ -1,0 +1,7 @@
+# This file contains parameters for the installation of inoscope. Mainly
+# the path prefix (ie. where to install it) which is traditionally
+# /usr/local for programs that are not installed via the package manager.
+
+PATH="/usr/local"
+
+# vim: ft=sh ts=4 sw=4 et
