@@ -1,0 +1,13 @@
+#!  /bin/bash
+
+# Script to use cscope to build an index of Arduino source code. Since
+# Arduino is basically C (well, C++ really) with different libraries, and
+# compiled with a different compiler, cscope is a perfect code indexing
+# tool.
+#
+# Author: Matthew Signorini <matthew.signorini@gmail.com>
+
+find . -name '*.ino' > cscope.files
+cscope -b
+
+# vim: ft=sh ts=4 sw=4 et
